@@ -1,0 +1,42 @@
+body
+{   
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    background-color: #010409;
+    background-color: #19398a;
+    background-image: url("./ipl.png");
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 5px;
+    color: #e1edf3;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    padding: 10px;
+}
+
+img{
+    position: absolute;
+    z-index: -100;
+    top: 50px;
+    width: 450px;
+}
+
+.solid{
+    background-color: #0f255bdb;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#matches{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 16px;
+}
